@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<config>
+
+    <default>
+        <contacts>
+            <email>
+                <recipient_email><![CDATA[default_config@example.com]]></recipient_email>
+            </email>
+        </contacts>
+        <cms>
+            <hierarchy>
+                <menu_layout>right_column</menu_layout>
+            </hierarchy>
+        </cms>
+    </default>
+    <stores>
+      <default>
+            <contacts>
+                <email>
+                    <recipient_email><![CDATA[english@example.com]]></recipient_email>
+                </email>
+            </contacts>
+        </default>
+        <french>
+            <contacts>
+                <email>
+                    <recipient_email><![CDATA[french@example.com]]></recipient_email>
+                </email>
+            </contacts>
+        </french>
+        <german>
+            <contacts>
+                <email>
+                    <recipient_email><![CDATA[german@example.com]]></recipient_email>
+                </email>
+            </contacts>
+        </german>
+        <privatesales>
+            <contacts>
+                <email>
+                    <recipient_email><![CDATA[privatesales@example.com]]></recipient_email>
+                </email>
+            </contacts>
+        </privatesales>
+
+    </stores>
+
+    <websites>
+        <base>
+            <contacts>
+                <email>
+                    <recipient_email><![CDATA[websites@example.com]]></recipient_email>
+                </email>
+            </contacts>
+        </base>
+        <private>
+            <contacts>
+                <email>
+                    <recipient_email><![CDATA[private@example.com]]></recipient_email>
+                </email>
+            </contacts>
+        </private>
+    </websites>
+</config>
